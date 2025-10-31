@@ -1,0 +1,8 @@
+project: iris_classifier_feast
+provider: local
+offline_store:
+  type: file
+online_store:
+  type: sqlite
+  path: data/online_store.db
+registry: data/registry.db
